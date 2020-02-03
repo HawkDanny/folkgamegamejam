@@ -57,3 +57,29 @@ a:hover {
     padding-bottom: 50px;
 }
 
+@media only screen and (max-width: 650px) {
+    #title {
+        font-size: 75px;
+    }
+
+    #content {
+        padding-top: 0px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    #info {
+        font-size: 20px;
+    }
+
+    #content p {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    #title {
+        font-size: 50px;
+    }
+}
+
